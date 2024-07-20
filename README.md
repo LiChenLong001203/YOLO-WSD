@@ -8,7 +8,7 @@ model = YOLO('ultralytics-main/ultralytics/cfg/models/v8/yolov8n-all2.yaml')
     results = model.train(
         data='ultralytics/cfg/datasets/WSODD.yaml', epochs=150, )
     model.train(**{'cfg': 'ultralytics-main/ultralytics/cfg/default.yaml'})
-5.之后在终端或本地运行ceshi.py即可。其余配置以及都修改好了
+5.Run ceshi.py in the terminal or locally. All other configurations have been modified accordingly.
 
 
 
